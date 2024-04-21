@@ -1,0 +1,46 @@
+body{
+    // background-color:#16ad50; 
+  display: flex; 
+  height: 100vh; 
+  justify-content: center; 
+  align-items: center; 
+  font-family: 'Poppins', sans-serif;
+  background-image: url(login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    padding:20px;
+    border-radius:30px;
+    width:30%;
+    height:40%;
+  }
+  .first img{
+    width: 20%;
+  } 
+  input{
+    gap: 6px; 
+  border:20px;
+  padding: 20px;
+  background-color: white;
+  margin-top:30px;
+border: 1px solid black;
+  width:100%;
+  } 
+  .btn1{
+    border:20px;
+    margin-top:30px;
+    color:black;
+    font-size:18px;
+    font-family:poppins;
+    width: 300px; 
+      height: 36px; 
+      border: 1px solid rgb(14, 13, 13); 
+      font-weight: 700; 
+      font-size: 15px; 
+      background-color:green;
+  }

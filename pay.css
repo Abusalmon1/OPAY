@@ -1,0 +1,62 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  width: 30%;
+  height: 40%;
+}
+
+.first img {
+  width: 20%;
+}
+
+input {
+  gap: 6px;
+  border: 20px;
+  padding: 20px;
+  background-color: white;
+  margin-top: 30px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.btn1 {
+  border: 20px;
+  margin-top: 30px;
+  color: black;
+  font-size: 18px;
+  font-family: poppins;
+  width: 300px;
+  height: 36px;
+  border: 1px solid #0e0d0d;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: green;
+}
+/*# sourceMappingURL=pay.css.map */
